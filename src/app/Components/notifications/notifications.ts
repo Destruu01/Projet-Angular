@@ -17,5 +17,6 @@ export class Notifications {
   bntTXT='Afficher les notifications';
   ShowNotifications(){
     this.show.set(!this.show());
+    this.bntTXT=this.show()?'Masquer les notifications':'Afficher les notifications';
   }
 }
